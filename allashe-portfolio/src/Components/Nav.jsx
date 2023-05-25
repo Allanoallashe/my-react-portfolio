@@ -20,7 +20,7 @@ const Nav = () => {
       <a href="#Services" onClick={() => setActiveNav('#Services')} className={activeNav === '#Services' ? 'active' : ''}><RiServiceFill style={{ height: '30px', width: '30px', color: '#00001b' }} /></a>
       
       <a href="#Contact" onClick={() => setActiveNav('#Contact')} className={activeNav === '#Contact' ? 'active' : ''}><AiFillContacts style={{height:'30px', width:'30px', color:'#00001b'}}/></a>
-    </nav>
+      </nav>
   )
 }
 

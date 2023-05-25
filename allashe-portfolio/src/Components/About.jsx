@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import Me from '../images/profile.jpg'
+import Me from '../images/image3.jpeg'
 import {FaAward} from 'react-icons/fa'
 import {FaUsers} from 'react-icons/fa'
 import {AiFillFolderOpen} from 'react-icons/ai'

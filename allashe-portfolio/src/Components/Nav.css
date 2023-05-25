@@ -15,6 +15,7 @@ nav{
   backdrop-filter: blur(15px);
   top: 90%;
 }
+
 nav a{
   background-color: transparent;
   padding: 0.3rem;
