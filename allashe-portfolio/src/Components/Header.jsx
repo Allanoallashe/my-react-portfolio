@@ -17,11 +17,11 @@ const Header = () => {
           </h5>
         </div>
         <CTA />
-        <HeaderSocials />
+        <HeaderSocials/>
 
         <img src={image3} alt="profile" />
         
-        <a href="#contact" className='scroll_down'>
+        <a href="#Contact" className='scroll_down'>
           <i class="fa-solid fa-arrow-down fa-beat"></i>
         </a>
       </div>

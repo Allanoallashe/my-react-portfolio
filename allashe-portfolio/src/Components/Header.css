@@ -49,10 +49,6 @@ header{
   height: 25vh;
   width: 50%;
 }
-.description h1,.description h5{
-  margin: 0;
-}
-
 .header-container img{
   width: 16rem;
   height: 22rem;
@@ -80,7 +76,7 @@ header{
 
 /* media query */
 @media screen and (max-width:600px){
-  .header-container{
-    background-color: yellow;
+  .header_socials, .scroll_down{
+    display: none;
   }
 }
