@@ -60,3 +60,20 @@
   transform: rotate(0deg);
   transition: All 0.5s linear;
 }
+.card-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 450px;
+  padding: 5px;
+  width: 90%;
+  flex-direction: column;
+}
+.inner-box{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+}

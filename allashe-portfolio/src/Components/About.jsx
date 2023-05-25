@@ -17,6 +17,8 @@ const About = () => {
             <div className="about_me">
               <img src={Me} alt="" onMouseLeave={() => {document.querySelector('.about_me img').style.transition='0.6s ease'}} />
             </div>
+            <div className="card-box">
+              <div className="inner-box">
             <article className='about_card'>
               <FaAward className='about_icon'/>
               <h5>Experience</h5>
@@ -31,11 +33,12 @@ const About = () => {
               <AiFillFolderOpen className='about_icon'/>
               <h5>Projects</h5>
               <small>20+ cCompleted</small>
-            </article>
-          </div>
-
+              </article>
+              </div>
           <p>I am Allan, a fullstack web developer. I love programming and I am readily available for work.</p>
           <a href="#Contact" className='btn btn-primary'>Let's Talk</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
