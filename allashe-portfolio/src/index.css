@@ -3,23 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 body {
-  height: 2000px;
   background-color: var(--color-white);
   color: var(--font-color);
   margin: 0;
   padding: 0;
   line-height: 1.7;
   background-image: url(../public/texture3.avif);
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  overflow: hidden;
-  border: 0;
-  outline: 0;
   list-style: none;
-  text-decoration: none;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif,Lucida;
   font-size: 16px;
+  min-height:100vh ;
+  height: 100%;
 }
 :root{
   --font-color: #00000d;
@@ -33,10 +28,89 @@ body {
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-ms:90%;
+
+  --transition: all 0.3s ease;
 }
 html{
   scroll-behavior: smooth;
-}
-::-webkit-scrollbar{
+} 
+ ::-webkit-scrollbar{
   display: none;
 }
+
+/* general styles */
+.container{
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5{
+  font-weight: 500;
+}
+h1{
+  font-size: 2.5rem;
+}
+section{
+  margin-top: 8rem;
+}
+section h2,section h5{
+  text-align: center;
+  color: var(--font-color);
+}
+section h2{
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+.text-light{
+  color: var(--color-bg-variant);
+}
+a{
+  text-decoration: none;
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+a:hover{
+  color: var(--font-color);
+}
+.btn{
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+}
+.btn:hover{
+  background-color: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+.btn-primary{
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+}
+img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+  /* media query */
+  @media screen and (max-width:1024px) {
+    .container{
+      width: var(--container-width-md);
+    }
+    section{
+      margin-top: 6rem;
+    }
+  }
+  @media screen and (max-width:600px) {
+    .container{
+      width: var(--container-width-ms);
+    }
+    section h2{
+      margin-bottom: 2rem;
+    }
+  }
