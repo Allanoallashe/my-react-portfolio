@@ -96,6 +96,12 @@ img{
   width: 100%;
   object-fit: cover;
 }
+i{
+  color: var(--font-color);
+  font-size: 20px;
+  font-weight: bold;
+}
+
 
   /* media query */
   @media screen and (max-width:1024px) {
@@ -114,3 +120,4 @@ img{
       margin-bottom: 2rem;
     }
   }
+
