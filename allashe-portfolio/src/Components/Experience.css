@@ -1,0 +1,56 @@
+
+#Experience{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: max-content;
+  padding: 10px;
+}
+#Experience h5,
+#Experience h2{
+  margin: 10px;
+}
+.exp_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;  
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  max-width: 850px;
+  height: 400px;
+  width: 90%;
+}
+.front , .back{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #03c0c0;
+  height: 280px;
+  border-radius: 12px;
+  cursor: default;
+  width: 350px;
+}
+.back{
+  background-color: transparent;
+  border: solid 1px #000023;
+}
+.back h2{
+  margin-top: 0;
+}
+
+.exp_content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 25px;
+  row-gap: 30px;
+}
+.exp-icon{
+  font-size: 20px;
+}
+.exp_details{
+  font-size: 18px;
+  font-weight: bold;
+}
