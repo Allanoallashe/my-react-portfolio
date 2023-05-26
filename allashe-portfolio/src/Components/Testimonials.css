@@ -6,6 +6,7 @@
   justify-content: center;
   height: max-content;
   flex-wrap: wrap;
+  color: #010152;
 }
 .avatar img{
   height: 100px;

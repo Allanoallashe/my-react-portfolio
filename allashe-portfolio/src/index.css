@@ -16,9 +16,9 @@ body {
 }
 :root{
   --font-color: #00000d;
-  --color-bg: #1f1f38;
+  --color-bg: #0f0f27;
   --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
+  --color-primary: #f3f3f3;
   --color-primary-variant: rgba(77,181,255,0.4);
   --color-white: #fff;
   --color-light: rgba(255,255,255,0.6);
@@ -76,7 +76,15 @@ a:hover{
   background-color: var(--color-primary);
   color: var(--color-bg);
   border: none;
+  font-size: 14px;
+  font-weight: bold;
 }
+.btn-primary:hover{
+  transform: scale(1.035);
+  background-color: #ffb6ce;
+  transition: all 0.15s ease-in-out;
+}
+
 i{
   color: var(--font-color);
   font-size: 20px;

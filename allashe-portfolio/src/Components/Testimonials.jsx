@@ -40,7 +40,7 @@ const data = [
 const Testimonials = () => {
   return (
     <section id='Testimonials' >
-      <h5>Review</h5>
+      <h4>Review</h4>
       <h2>Testimonials</h2>
 
       <Swiper spaceBetween={30}
@@ -63,7 +63,7 @@ const Testimonials = () => {
                 <div className="avatar">
                   <img src={avatar} alt="" />
                 <h5 className="client-name">{name}</h5>
-                <small className="client-review">{review} <AiFillStar className='stars'/> <AiFillStar className='stars'/> <AiFillStar className='stars'/> <AiFillStar className='stars'/> <AiFillStar className='stars'/></small>
+                <small className="client-review">{review}  <AiFillStar className='stars'/> <AiFillStar className='stars'/> <AiFillStar className='stars'/> <AiFillStar className='stars'/> <AiFillStar className='stars'/></small>
                 </div>
               </SwiperSlide>
             )
