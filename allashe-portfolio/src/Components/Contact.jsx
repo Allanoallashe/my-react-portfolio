@@ -2,9 +2,19 @@ import React from 'react';
 import './Contact.css';
 import {MdEmail} from 'react-icons/md'
 import {BsMessenger} from 'react-icons/bs'
-import {IoLogoWhatsapp} from 'react-icons/io'
+import { IoLogoWhatsapp } from 'react-icons/io'
+import { useRef } from 'react';
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_q65b9ha', 'template_r6aqpfy', form.current, 'ikwAfgppJKkQ_6qMU')
+    e.target.reset()
+  };
   return (
     <section id='Contact'>
       <h5>Get In Touch</h5>
@@ -31,7 +41,7 @@ const Contact = () => {
             <a href="https://api.whatsapp.com/send?phone+254703817561" target='blank'> Send a message</a>
           </article>
         </div>
-        <form action="#">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" id="message" cols="21" rows="7" placeholder='Your Message' required></textarea>
