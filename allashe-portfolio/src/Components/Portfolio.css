@@ -1,4 +1,12 @@
 
+#portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: #010152;
+  justify-content: center;
+  align-items: center; 
+}
 .portfolio-container{
   display: flex;
   flex-wrap: wrap;
@@ -7,6 +15,48 @@
   align-items: center;
 }
 .port-item-img img{
-height: 350px;
-width: 300px;
+height: 300px;
+width: 250px;
+border-radius: 22px;
+}
+
+.btn-link{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  width: 100%;
+  height: max-content;
+  justify-content: center;
+}
+.btn-link .button{
+  width: 120px;
+  border-radius: 4px;
+  background-image: linear-gradient(to right, #f5f5f5 0%, #f9f9f9 50%, #ffff 100%);
+}
+.btn-link .button a{
+  color: #010152;
+}
+.btn-link .button a:hover{
+  color: #ffff;
+}
+.btn-link .button::after{
+  border-radius: 4px;
+}
+
+.portfolio-item{
+  background-color: #096286;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 300px;
+  padding: 15px;
+  border-radius: 30px;
+  height: 450px;
+}
+.portfolio-item:hover{
+  cursor: default;
+  transform: scale(1.035);
+  transition: all 0.3s ease-in-out;
 }

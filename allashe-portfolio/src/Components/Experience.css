@@ -8,9 +8,10 @@
   height: max-content;
   padding: 10px;
 }
-#Experience h5,
+#Experience h4,
 #Experience h2{
   margin: 10px;
+  color: #010152;
 }
 .exp_container{
   display: flex;
@@ -27,8 +28,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: #fff;
   justify-content: space-evenly;
-  background-color: #03c0c0;
+  background-color: #096286;
   height: 400px;
   border-radius: 12px;
   cursor: default;
@@ -36,10 +38,8 @@
 }
 .back{
   background-color: transparent;
-  border: solid 1px #000023;
-}
-.back h2{
-  margin-top: 0;
+  border: solid 1px #000062;
+  color: #010152;
 }
 
 .exp_content{

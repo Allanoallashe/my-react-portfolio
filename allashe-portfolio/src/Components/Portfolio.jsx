@@ -5,45 +5,74 @@ import image1 from '../images/image1.jpg'
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>Recent Work</h5>
+      <h4>Recent Work</h4>
       <h1>Portfolio</h1>
 
       <div className="portfolio-container">
         <article className='portfolio-item'>
           <div className="port-item-img"><img src={image1} alt="" /></div>
-          <h3>the coast</h3>
-          <a href="https://github.com" className='btn' target='blank'>Github</a>
-          <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a>
+          <h3>The Coast</h3>
+          <div className="btn-link">
+            <div className="button"><a href="https://github.com" target='blank'>Github</a>
+            </div>
+            <div className="button"><a href="https://github.com" target='blank'>Live Demo</a>
+            </div>
+          </div>
+            
         </article>
         <article className='portfolio-item'>
           <div className="port-item-img"><img src={image1} alt="" /></div>
-          <h3>simple web</h3>
-          <a href="https://github.com" className='btn' target='blank'>Github</a>
-          <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a>
+          <h3>Sample web</h3>
+          <div className="btn-link">
+           <div className="button"><a href="https://github.com" target='blank'>Github</a>
+            </div>
+            <div className="button"><a href="https://github.com" target='blank'>Live Demo</a>
+            </div>
+          </div>
         </article>
+
         <article className='portfolio-item'>
           <div className="port-item-img"><img src={image1} alt="" /></div>
-          <h3>blogs</h3>
-          <a href="https://github.com" className='btn' target='blank'>Github</a>
-          <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a>
+          <h3>Blogs</h3>
+          <div className="btn-link">
+           <div className="button"><a href="https://github.com" target='blank'>Github</a>
+            </div>
+            <div className="button"><a href="https://github.com" target='blank'>Live Demo</a>
+            </div>
+          </div>
         </article>
+
         <article className='portfolio-item'>
           <div className="port-item-img"><img src={image1} alt="" /></div>
-          <h3>snake game</h3>
-          <a href="https://github.com" className='btn' target='blank'>Github</a>
-          <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a>
+          <h3>Snake Game</h3>
+          <div className="btn-link">
+           <div className="button"><a href="https://github.com" target='blank'>Github</a>
+            </div>
+            <div className="button"><a href="https://github.com" target='blank'>Live Demo</a>
+            </div>
+          </div>
         </article>
+
         <article className='portfolio-item'>
           <div className="port-item-img"><img src={image1} alt="" /></div>
-          <h3>solar system</h3>
-          <a href="https://github.com" className='btn' target='blank'>Github</a>
-          <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a>
+          <h3>Solar System</h3>
+          <div className="btn-link">
+           <div className="button"><a href="https://github.com" target='blank'>Github</a>
+            </div>
+            <div className="button"><a href="https://github.com" target='blank'>Live Demo</a>
+            </div>
+          </div>
         </article>
+
         <article className='portfolio-item'>
           <div className="port-item-img"><img src={image1} alt="" /></div>
           <h3>E-Commerce</h3>
-          <a href="https://github.com" className='btn' target='blank'>Github</a>
-          <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a>
+          <div className="btn-link">
+           <div className="button"><a href="https://github.com" target='blank'>Github</a>
+            </div>
+            <div className="button"><a href="https://github.com" target='blank'>Live Demo</a>
+            </div>
+          </div>
         </article>
       </div>
     </section>

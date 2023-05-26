@@ -11,26 +11,28 @@
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  row-gap: 20px;
+  row-gap: 30px;
+  column-gap: 14px;
   height: max-content;
   width: 95%;
   padding: 10px;
 }
 .service{
-  background-color: #00a7a7;
+  background-color: #02415a;
   display: flex;
   width: 350px;
+  color: #fff;
   height: 510px;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  border-bottom-right-radius: 50%;
-  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
 .service:hover{
-  background-color: #fff;
-  cursor: pointer;
+  transform: scale(1.035);
+  cursor: default;
   transition: all 0.3s ease;
 }
 .service-list{
@@ -43,8 +45,8 @@
 .service-head1,
 .service-head2,
 .service-head3{
-  background-color: #00e2e2;
-  margin-top: -21px;
+  background-color: #0e6c6c;
+  margin-top: -10px;
   width: 100%;
   display: flex;
   align-items: center;

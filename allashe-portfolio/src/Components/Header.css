@@ -37,13 +37,15 @@ header{
 }
 .header_socials::after{
   content: '';
-  width: 1px;
-  height: 2rem;
-  background-color: #00001b;
+  width: 2px;
+  height: 2.5rem;
+  background-image: linear-gradient(to top, #063970, #003581, #002e90, #14229c, #3900a3);
 }
 .description{
   display: flex;
   gap: 10px;
+  color: #010152;
+  white-space: nowrap;
   text-transform: capitalize;
   align-items: center;
   justify-content: center;
@@ -73,7 +75,7 @@ header{
   justify-content: center;
   width: 35px;
   border-radius: 50%;
-  background-color: #00001b;
+  background-image: linear-gradient(to top, #063970, #003581, #002e90, #14229c, #3900a3);
   color: #fff;
 }
 

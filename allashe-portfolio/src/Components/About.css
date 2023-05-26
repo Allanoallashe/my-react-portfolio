@@ -4,6 +4,7 @@
   display: flex;
   height: max-content;
   margin-top: 0;
+  color: #010152;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -31,16 +32,18 @@
   width: 100%;
 }
 .about_card:hover{
-  background-color: #e5f3ee;
+  transform: scale(1.045);
   cursor: default;
   transition: var(--transition);
 }
 .about_card{
-  background-color: #26c691;
+  background-color: #096286;
   display: flex;
   flex-direction: column;
-  height: 120px;
-  width: 130px;
+  height: max-content;
+  padding: 5px;
+  color: #fff;
+  width: 126px;
   align-items: center;
   justify-content: space-evenly;
   border-radius: 1rem;
@@ -83,7 +86,7 @@
   flex-wrap: wrap;
 }
 .about_icon{
-  color: #010121;
+  color: #f5f5f5;
   font-size: 1.4rem;
 }
 .about_card h5{
@@ -94,3 +97,53 @@
   text-align: justify;
   letter-spacing: 1px;
 }
+
+/* crazy buttons */
+
+  .button1{
+    /* background-color: #3900a3; */
+    background-image: linear-gradient(to top, #063970, #003581, #002e90, #14229c, #3900a3);
+    border: none;
+    color: #fff;
+    height: 44px;
+    width: 150px;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 24px;
+    position: relative;
+  }
+  .button1 a{
+    border: none;
+    height: 40px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    font-size: 16px;
+    z-index: 50;
+  }
+  .button1::after{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content:'';
+    border-radius: 24px;
+    background-image: linear-gradient(to right, #2ba6d7 0%, #2ba6d7 50%, #2ba6d7 100%); 
+    transition: all 0.3s ease;
+  }
+  .button1:hover:after{
+    width: 100%;
+  }
+  .button1 a:hover{
+    color: #fff;
+  }

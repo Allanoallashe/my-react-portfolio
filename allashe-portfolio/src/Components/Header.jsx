@@ -12,7 +12,7 @@ const Header = () => {
         <div className='description'>
           <Typewriter
         options={{
-            strings: [ ' I am Allan Lenny', 'I am  A Fullstack webdeveloper', 'I am  Lets Talk'],
+            strings: [ ' I am Allan Lenny', 'I am  A Fullstack webdeveloper', 'Lets Talk'],
             autoStart: true,
               loop: true,
               pauseFor: 5000,

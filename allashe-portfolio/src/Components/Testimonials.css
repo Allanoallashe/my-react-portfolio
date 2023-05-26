@@ -20,15 +20,15 @@
   justify-content: center;
 }
 .avatar{
-  background-color: #006e6e;
+  background-color: #034d6a;
   width: 100%;
+  color: #fff;
   height: 300px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border-radius: 20px;
 }
 
 

@@ -8,7 +8,7 @@ import {AiFillFolderOpen} from 'react-icons/ai'
 const About = () => {
   return (
     <section id='About'>
-      <h5>Get To Know</h5>
+      <h4>Get To Know</h4>
       <h2>About Me</h2>
 
       <div className="about_container">
@@ -36,7 +36,8 @@ const About = () => {
               </article>
               </div>
           <p>I am Allan, a fullstack web developer. I love programming and I am readily available for work.</p>
-          <a href="#Contact" className='btn btn-primary'>Let's Talk</a>
+            <div className="button1"><a href="#Contact">Let's Talk</a>
+            </div>
             </div>
           </div>
         </div>
