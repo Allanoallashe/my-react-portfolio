@@ -19,23 +19,53 @@ const Experience = () => {
 
       <div className="exp_container">
         <div className="front">
-          <h2>Frontend Development</h2>
+          <h3>Frontend Development</h3>
           <div className="exp_content">
-            <article className='exp_details'> <ImHtmlFive className='exp-icon'/>Html</article>
-            <article className='exp_details'> <ImCss3 className='exp-icon'/>CSS</article>
-            <article className='exp_details'> <TbBrandJavascript className='exp-icon'/>Javascript</article>
-            <article className='exp_details'> <SiBootstrap className='exp-icon'/>Bootstrap</article>
-            <article className='exp_details'> <SiTailwindcss className='exp-icon'/>Tailwind</article>
-            <article className='exp_details'> <FaReact className='exp-icon'/>React</article>
+            <div className="exp-q">
+              <article className='exp_details'> <ImHtmlFive className='exp-icon' />Html</article>
+              <p>Experienced</p>
+            </div>
+            <div className="exp-q">
+              <article className='exp_details'> <ImCss3 className='exp-icon' />CSS</article>
+              <p>Experienced</p>
+            </div>
+            <div className="exp-q">
+              <article className='exp_details'> <TbBrandJavascript className='exp-icon' />Javascript</article>
+              <p>Experienced</p>
+            </div>
+            <div className="exp-q">
+              <article className='exp_details'> <SiBootstrap className='exp-icon' />Bootstrap</article>
+              <p>Experienced</p>
+            </div>
+            <div className="exp-q">
+              <article className='exp_details'> <SiTailwindcss className='exp-icon' />Tailwind</article>
+              <p>Experienced</p>
+            </div>
+            <div className="exp-q">
+              <article className='exp_details'> <FaReact className='exp-icon' />React</article>
+              <p>Experienced</p>
+            </div>
           </div>
         </div>
         <div className="back">
-          <h2>Backend Development</h2>
+          <h3>Backend Development</h3>
           <div className="exp_content">
-            <article className="exp_details"><FaNodeJs className='exp-icon'/>NodeJs</article>
-            <article className="exp_details"><BsFiletypePhp className='exp-icon'/>Php</article>
-            <article className="exp_details"><BsFiletypeSql className='exp-icon'/>MySQL</article>
-            <article className="exp_details"><TbBrandLaravel className='exp-icon'/>Laravel</article>
+            <div className="exp-q">
+              <article className="exp_details"><FaNodeJs className='exp-icon' />NodeJs</article>
+              <p>Basic</p>
+            </div>
+            <div className="exp-q">
+              <article className="exp_details"><BsFiletypePhp className='exp-icon' />Php</article>
+              <p>Intermediate</p>
+            </div>
+            <div className="exp-q">
+              <article className="exp_details"><BsFiletypeSql className='exp-icon' />MySQL</article>
+              <p>Intermediate</p>
+            </div>
+            <div className="exp-q">
+              <article className="exp_details"><TbBrandLaravel className='exp-icon' />Laravel</article>
+              <p>Basic</p>
+            </div>
           </div>
         </div>
       </div>

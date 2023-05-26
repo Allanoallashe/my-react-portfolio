@@ -28,7 +28,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   background-color: #03c0c0;
-  height: 280px;
+  height: 400px;
   border-radius: 12px;
   cursor: default;
   width: 350px;
@@ -48,9 +48,18 @@
   row-gap: 30px;
 }
 .exp-icon{
-  font-size: 20px;
+  font-size: 18px;
 }
 .exp_details{
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
+  text-decoration: underline;
+}
+.exp-q{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.exp-q p{
+  margin-left: 25px;
 }
