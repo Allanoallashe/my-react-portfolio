@@ -37,6 +37,10 @@ html{
   display: none;
 }
 
+li{
+  list-style: none;
+}
+
 /* general styles */
 
 section{
