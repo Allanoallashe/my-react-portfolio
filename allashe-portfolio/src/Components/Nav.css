@@ -1,32 +1,70 @@
 
 nav{
-  background-color: rgba(0,0,0,0.4);
-  max-width: 300px;
-  width: 90%;
+  background-color: transparent;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 0.7rem 1.7rem;
   position: sticky;
-  left: 50%;
-  transform: translate(-50%);
   z-index: 2;
-  border-radius: 3rem;
-  backdrop-filter: blur(15px);
   top: 90%;
+}
+.links{
+  background-color: rgba(0,0,0,0.4);
+  gap: 20px;
+  display: flex;
+  padding: 0.7rem 1.7rem;
+  align-items: center;
+  justify-content: space-between;
+  backdrop-filter: blur(15px);
+  border-radius: 3rem;
+
 }
 
 nav a{
   background-color: transparent;
   padding: 0.3rem;
   border-radius: 50%;
+  color: #000015;
   display: flex;
   align-items: center;
   justify-content: center;
+  position:relative;
 }
 nav a:hover{
   background-color: #dedede;
 }
 nav a.active{
   background-color: #dedede;
+}
+
+.tooltip1,
+.tooltip2,
+.tooltip3,
+.tooltip4,
+.tooltip5{
+  display: none;
+  font-weight: bold;
+  position: absolute;
+  top: -36px;
+  font-size: 14px;
+}
+#l1:hover .tooltip1{
+  display: block;
+  transition: all 0.3s ease;
+}
+#l2:hover .tooltip2{
+  display: block;
+  transition: all 0.3s ease;
+}
+#l3:hover .tooltip3{
+  display: block;
+  transition: all 0.3s ease;
+}
+#l4:hover .tooltip4{
+  display: block;
+  transition: all 0.3s ease;
+}
+#l5:hover .tooltip5{
+  display: block;
+  transition: all 0.3s ease;
 }
