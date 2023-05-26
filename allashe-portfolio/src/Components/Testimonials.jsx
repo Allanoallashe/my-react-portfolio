@@ -44,15 +44,15 @@ const Testimonials = () => {
 
       <Swiper spaceBetween={30}
         centeredSlides={true}
+        color='#fff'
         autoplay={{
-          delay: 3500,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         pagination={{
           clickable: true,
-          color: '#fff',
         }}
-        navigation={true}
+        navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper">
         {
