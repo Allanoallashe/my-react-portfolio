@@ -12,7 +12,6 @@ body {
   list-style: none;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif,Lucida;
-  font-size: 16px;
   filter: brightness(1.1);
 }
 :root{
@@ -78,48 +77,25 @@ a:hover{
   color: var(--color-bg);
   border: none;
 }
-img{
-  display: block;
-  width: 100%;
-  object-fit: cover;
-}
 i{
   color: var(--font-color);
   font-size: 20px;
   font-weight: bold;
 }
 
-  /* media query */
-  @media screen and (max-width:1024px) {
-    .container{
-      width: var(--container-width-md);
-    }
-    section{
-      margin-top: 6rem;
-    }
-  }
-  @media screen and (max-width:600px) {
-    .container{
-      width: var(--container-width-ms);
-    }
-    section h2{
-      margin-bottom: 2rem;
-    }
-  }
-
 
 
   /* graphics */
   
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-
+ 
  .graphics{
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px;
 }
-svg {
+.svg {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -128,7 +104,6 @@ svg {
     height: 80px;
 }
 .text-copy {
-    /* fill: #000045; */
     fill: transparent;
     stroke: #f5f5f5;
     stroke-dasharray: 6% 29%;
@@ -143,7 +118,6 @@ svg {
 }
 
 .text-copy:nth-child(2){
-	/* stroke: #ffff; */
 	stroke: #123812;
 	animation-delay: -2s;
 }
@@ -154,7 +128,6 @@ svg {
 }
 
 .text-copy:nth-child(4){
-	/* stroke: beige; */
 	stroke: #000045;
 	animation-delay: -4s;
 }
@@ -166,4 +139,4 @@ svg {
 
 @keyframes stroke-offset{
 	100% {stroke-dashoffset: -35%;}
-}
+} 

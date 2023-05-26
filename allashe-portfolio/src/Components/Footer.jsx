@@ -7,9 +7,9 @@ import {FaInstagramSquare} from 'react-icons/fa'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer-logo'>ALLANITY</a>
+      <p className='footer-logo'>ALLANITY</p>
 
-      <ul className="links">
+      <ul className="link">
         <li><a href="#">Home</a></li>
         <li><a href="#About">About</a></li>
         <li><a href="#Experience">Experience</a></li>
