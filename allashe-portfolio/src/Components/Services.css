@@ -5,6 +5,7 @@
   justify-content: space-evenly;
   flex-direction: column;
   padding: 10px;
+  color: #010152;
 }
 .services-container{
   display: flex;

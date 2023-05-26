@@ -5,7 +5,7 @@ import {FiCheck} from 'react-icons/fi'
 const Services = () => {
   return (
     <section id='Services'>
-      <h5>What I Offer</h5>
+      <h4>What I Offer</h4>
       <h2>Services</h2>
 
       <div className="services-container">
