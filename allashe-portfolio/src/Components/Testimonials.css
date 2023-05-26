@@ -18,6 +18,7 @@
   width: 100vw;
   align-items: center;
   justify-content: center;
+  background-color: #034d6a;
 }
 .avatar{
   background-color: #034d6a;
@@ -31,7 +32,19 @@
   flex-direction: column;
 }
 
+.client-review{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+}
+.stars{
+  color: #ffc251;
+}
 
+.stars:first-child{
+  margin-left: 10px;
+}
 
 /* swipers */
 
@@ -40,6 +53,7 @@
   align-items: center;
   justify-content: center;
   height: 350px;
+  background-color: #034d6a;
   padding: 10px;
   width: 100vw;
 }

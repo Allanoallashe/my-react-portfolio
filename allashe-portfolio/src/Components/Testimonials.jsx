@@ -3,6 +3,7 @@ import './Testimonials.css'
 import avatar from '../images/image2.jpg'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import {AiFillStar} from 'react-icons/ai'
 
 // Import Swiper styles
 import "swiper/css";
@@ -17,7 +18,7 @@ const data = [
   {
     avatar: avatar,
     name: 'Vince',
-    review: 'Did a wonderful project'
+    review: 'Good Job'
   },
   {
     avatar: avatar,
@@ -62,7 +63,7 @@ const Testimonials = () => {
                 <div className="avatar">
                   <img src={avatar} alt="" />
                 <h5 className="client-name">{name}</h5>
-                <small className="client-review">{review}</small>
+                <small className="client-review">{review} <AiFillStar className='stars'/> <AiFillStar className='stars'/> <AiFillStar className='stars'/> <AiFillStar className='stars'/> <AiFillStar className='stars'/></small>
                 </div>
               </SwiperSlide>
             )
