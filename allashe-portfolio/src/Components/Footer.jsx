@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       <p className='footer-logo'>ALLANITY</p>
-
+        <div className="box">
       <ul className="link">
         <li><a href="#">Home</a></li>
         <li><a href="#About">About</a></li>
@@ -22,9 +22,10 @@ const Footer = () => {
         <a href="https://facebook.com"><BsFacebook/></a>
         <a href="https://Instagram.com"><FaInstagramSquare/></a>
         <a href="https://Twitter.com"><BsTwitter/></a>
-      </div>
+        </div>
+        </div>
       <div className="copy">
-        <small>&copy; @allanoallasheDev.com, All rights reserved.</small>
+        <small><span>&copy;</span> All rights reserved. @allanoallasheDev.com</small>
       </div>
     </footer>
   )
