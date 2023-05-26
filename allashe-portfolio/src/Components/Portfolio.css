@@ -1,0 +1,12 @@
+
+.portfolio-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+.port-item-img img{
+height: 350px;
+width: 300px;
+}

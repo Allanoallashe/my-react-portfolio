@@ -27,6 +27,12 @@
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
 }
+
+.service:hover{
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 .service-list{
   display: flex;
   align-items: center;

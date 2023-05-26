@@ -1,0 +1,45 @@
+
+#Testimonials{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+  flex-wrap: wrap;
+}
+.avatar img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.tests{
+  display: flex;
+  height: max-content;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+.avatar{
+  background-color: #006e6e;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+
+
+/* swipers */
+
+.mySwiper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  padding: 10px;
+  width: 100vw;
+}
