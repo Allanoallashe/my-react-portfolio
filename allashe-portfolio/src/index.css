@@ -107,3 +107,63 @@ i{
     }
   }
 
+
+
+  /* graphics */
+  
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+ .graphics{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+svg {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font: 240px 'Montserrat';
+    width: 600px;
+    height: 80px;
+}
+.text-copy {
+    /* fill: #000045; */
+    fill: transparent;
+    stroke: #f5f5f5;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 12px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 6s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #000045;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	/* stroke: #ffff; */
+	stroke: #123812;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #000;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	/* stroke: beige; */
+	stroke: #000045;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #0b5a79;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}

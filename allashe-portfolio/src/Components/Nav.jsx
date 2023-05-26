@@ -11,7 +11,7 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <div className="links">
+      <div className="Links">
         <a id='l1' href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''} ><AiTwotoneHome style={{ height: '30px', width: '30px', color: '#00001b' }} />
           <small className='tooltip1'>Home</small>
         </a>

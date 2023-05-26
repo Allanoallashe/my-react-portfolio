@@ -26,7 +26,7 @@ const Contact = () => {
             <MdEmail/>
             <h4>Email</h4>
             <h5>owinoallan77@gmail.com</h5>
-            <a href="mailto:owinoallan77@gmail.com" target='blank'>Send a message</a>
+            <a href="mailto:owinoallan77@gmail.com?Subject=Hello Allashe" target='blank'>Send a message</a>
           </article>
           <article className="option">
             <BsMessenger/>
@@ -38,7 +38,7 @@ const Contact = () => {
             <IoLogoWhatsapp/>
             <h4>Whatsapp</h4>
             <h5>+254703817561</h5>
-            <a href="https://api.whatsapp.com/send?phone+254703817561" target='blank'> Send a message</a>
+            <a href="whatsapp://send?text=Hello Allashe&phone=+254703817561" target='blank'> Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

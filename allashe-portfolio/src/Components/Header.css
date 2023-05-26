@@ -1,8 +1,8 @@
 header{
   display: flex;
-  padding-top: 3rem;
+  padding-top: 1rem;
   flex-direction: column;
-  height: 100vh;
+  height: max-content;
   align-items: center;
   justify-content: center;
 }
@@ -43,10 +43,13 @@ header{
 }
 .description{
   display: flex;
-  flex-direction: column;
+  gap: 10px;
+  text-transform: capitalize;
   align-items: center;
-  justify-content: space-between;
-  height: 25vh;
+  justify-content: center;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
   width: 50%;
 }
 .header-container img{

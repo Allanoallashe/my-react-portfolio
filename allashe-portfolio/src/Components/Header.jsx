@@ -1,20 +1,23 @@
 import React from 'react'
 import './Header.css'
 import CTA from './CTA'
-import profile from '../images/profile.jpg'
 import image3 from '../images/image3.jpeg'
 import HeaderSocials from './HeaderSocials'
+import Typewriter from 'typewriter-effect';
 
 const Header = () => {
   return (
     <header>
       <div className=" header-container">
         <div className='description'>
-          <h5>Hello I'm</h5>
-          <h1>Allan Lenny</h1>
-          <h5 className="text-light">
-            Fullstack Developer
-          </h5>
+          <Typewriter
+        options={{
+            strings: [ ' I am Allan Lenny', 'I am  A Fullstack webdeveloper', 'I am  Lets Talk'],
+            autoStart: true,
+              loop: true,
+              pauseFor: 5000,
+             }}
+              />
         </div>
         <CTA />
         <HeaderSocials/>
